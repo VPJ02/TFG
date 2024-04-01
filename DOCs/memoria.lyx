@@ -1,0 +1,640 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+1.- Introducción
+\end_layout
+
+\begin_layout Part*
+2.- Descripción del proyecto
+\end_layout
+
+\begin_layout Part*
+3.- Fundamentos Teorícos
+\end_layout
+
+\begin_layout Part*
+4.- Análisis y Diseño del Sistema
+\end_layout
+
+\begin_layout Standard
+En este apartado vamos a se realizar las fases de Análisis y Diseño aplicando
+ técnicas de ingeniería del software.
+ Apoyándonos en herramientas y mecanismos que nos permitan una mejor implementac
+ión posterior.
+\end_layout
+
+\begin_layout Standard
+Comenzaremos haciendo una estimación, y a priori, de los recursos necesarios
+ para su diseño e implementación y del tiempo empleado.
+ En este caso se utilizará un diagrama que permita observar con claridad
+ las fases del proyecto.
+\end_layout
+
+\begin_layout Standard
+A continuación, iniciaremos la fase de análisis determinando los requisitos
+ funcionales y no funcionales del proyecto.
+ Este punto será básico ya que determinará el resto de las fases
+\end_layout
+
+\begin_layout Standard
+Posteriormente, Se especificarán los casos de uso del sistema, para lo que
+ emplearemos tanto diagramas tipo UML como explicaciones detalladas textualmente.
+\end_layout
+
+\begin_layout Standard
+Finalmente, pasaremos a la fase de diseño, en el que utilizando UML, se
+ desarrollará distintos tipo de diagramas entre ellos, por supuesto, el
+ diagrama de clases.
+ 
+\end_layout
+
+\begin_layout Section*
+4.1.-Estimación de recursos y de tiempos
+\end_layout
+
+\begin_layout Standard
+A la hora de realizar la planificación del proyecto, se han tenido en cuenta
+ distintas particularidades del proyecto y desde dos puntos de vista bien
+ diferenciados.
+ Por un lado, se han tenido en cuenta los requerimientos exigidos en el
+ proyecto y por otro las características del alumno que desarrollará el
+ PFG.
+\end_layout
+
+\begin_layout Standard
+La estimación no será exacta debido al gran número de variables que intervienen
+ a lo largo del desarrollo del proyecto
+\end_layout
+
+\begin_layout Subsection*
+4.1.1.-Estimación de recursos técnicos y/o presupuesto
+\end_layout
+
+\begin_layout Standard
+A la hora de hacer la estimación del tiempo necesario para el desarrollo
+ completo del proyecto se han tenido en cuenta las siguientes premisas:
+ 
+\end_layout
+
+\begin_layout Itemize
+Se toma como fecha límite de entrega del proyecto el 21 de junio • Se tomo
+ como fecha de inicio, el 19 de febrero 
+\end_layout
+
+\begin_layout Itemize
+Se toma el tiempo medio posible de trabajo, medido en horas, en una semana,
+ tomando como referencia otros cursos.
+ Esto es, 12 hora/semana 
+\end_layout
+
+\begin_layout Standard
+Teniendo en cuanta estas premisas, y realizando los cálculos, obtenemos
+ un total de 216 horas.
+ 
+\end_layout
+
+\begin_layout Standard
+Por otro lado, el proyecto incluye como requisito que la redacción de la
+ documentación se haga en Lyx.
+ Este punto hace que se “encarezca” el proyecto ya que habrá que añadir
+ un periodo de formación y de inexperiencia por el desconocimiento del uso
+ de este editor.
+ La formación y la inexperiencia se establece en 10 horas adicionales.
+\end_layout
+
+\begin_layout Standard
+Así pues, a priori, se establece un computo total de 226 horas para el desarroll
+o del proyecto, en el que podemos establecer dos puntos de vista bien diferencia
+dos:
+\end_layout
+
+\begin_layout Itemize
+Si el proyecto es desarrollado por una única persona, véase el caso de un
+ PFG realizado por un estudiante, se determina un total aproximado de 226
+ horas.
+\end_layout
+
+\begin_layout Itemize
+Si el proyecto es desarrollado por un equipo multidisciplinar compuesto
+ por un Jefe de proyecto, un Analista programador y un Programador, con
+ un reparto del trabajo del 5%, 25% y 70% respectivamente, en el que se
+ presupuesta precio/ hora
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tomando como referencia el preciario publicado por la Junta de Extremadura
+\end_layout
+
+\end_inset
+
+ podemos determinar un total de 7160 €, repartidos de la siguiente manera:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Jefe de proyecto: 10 horas * 40 €/hora= 400 € 
+\end_layout
+
+\begin_layout Itemize
+Analista programador: 56 horas * 35 €/hora = 1960 € 
+\end_layout
+
+\begin_layout Itemize
+Programador: 150 horas * 30 €/hora = 4500 € 
+\end_layout
+
+\begin_layout Itemize
+Formacion (tiempo dedicado): 10 * 30 € = 300 €
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+4.1.2.- Cronograma
+\end_layout
+
+\begin_layout Standard
+Para determinar el plan de trabajo y establecer el correspondiente cronograma
+ se hace necesario determinar las fases del proyecto y estimar el tiempo
+ necesario para su ejercicio.
+\end_layout
+
+\begin_layout Standard
+Una vez hecho un estudio previo, podemos determinar que las fases del proyecto
+ serán: 
+\end_layout
+
+\begin_layout Enumerate
+Análisis de proyecto a desarrollar:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estudio del material entregado 
+\end_layout
+
+\begin_layout Itemize
+Determinación de los requisitos funcionales
+\end_layout
+
+\begin_layout Itemize
+Diseño de los casos de Uso 
+\end_layout
+
+\begin_layout Itemize
+Puesta en marcha de las herramientas necesarias 
+\end_layout
+
+\begin_layout Itemize
+Diseño del prototipado
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Formación en herramientas: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aprendizaje de editor Lyx
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Desarrollo de Libreria: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diseño de la estructura 
+\end_layout
+
+\begin_layout Itemize
+Desarrollo de la ventana base 
+\end_layout
+
+\begin_layout Itemize
+Desarrollo de ventana simple 
+\end_layout
+
+\begin_layout Itemize
+Desarrollo de ventana de pestañas 
+\end_layout
+
+\begin_layout Itemize
+Desarrollo de ventana vista de árbol 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Creación de las plantillas o templates 
+\end_layout
+
+\begin_layout Enumerate
+Desarrollo de aplicación de prueba 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estudio del ejemplo práctico 
+\end_layout
+
+\begin_layout Itemize
+Implementación del ejemplo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Casos de prueba
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Realización de la Memoria 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gráficamente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename imagenes/cronograma.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+4.2.- Requisitos del proyecto
+\end_layout
+
+\begin_layout Standard
+En el documento con la especificaciones del proyecto se incluyen los requisitos
+ que se deben cumplir, entre los que destacan, de manera resumida:
+\end_layout
+
+\begin_layout Enumerate
+.
+ Los tipos de GUIs serán los siguientes
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+GUIs de una sola página, que denominaremos simples, en las que se integran
+ como máximo dos GUIs.
+\end_layout
+
+\begin_layout Enumerate
+GUIs con navegación mediante pestañas.
+\end_layout
+
+\begin_layout Enumerate
+GUIs con navegación mediante vista de árbol.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Cualquier tipo de GUI se debe poder anidar cualquier otro.
+ El nivel de anidamiento de GUIs, salvo para la simple, debe ser teóricamente
+ ilimitado.
+\end_layout
+
+\begin_layout Enumerate
+El proceso debe ser transparente para:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El usuario.
+ La edición de una GUI debe ser considerada como una transacción atómica,
+ por lo que lo editado en cada una de su páginas debe ser aceptado o rechazado
+ con una sola acción, una sola pulsación de botón del usuario al finalizar
+ la edición completa.
+\end_layout
+
+\begin_layout Enumerate
+El diseñador de GUIs.
+ Debe poder tratar estas GUIs como las normales de la librería gráfica que
+ se use
+\end_layout
+
+\begin_layout Enumerate
+El programador de aplicaciones.
+ Sólo debe tener acceso a la interfaz pública de la jerarquía de GUIs reusables,
+ que, además de la propia de las GUIs normales de la librería gráfica, debe
+ constar de métodos para añadir GUIs, listas de GUIs relacionadas y para
+ la inicialización propia de los GUIs reusables.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se debe mantener en lo posible la estética de las GUIs diseñadas.
+ Esto tiene que ver principalmente con el redimensionamiento de ventanas,
+ ya sea por necesidades propias de la integración de GUIs y/o por acciones
+ del usuario.
+\end_layout
+
+\begin_layout Enumerate
+Debe existir un mecanismo para crear GUIs de los tres tipos requeridos en
+ el punto 1, con la estructura mínima: botones para aceptar la edición y
+ rechazarla, contenedor apropiado con distribución y vista de árbol para
+ el último de los tipos requeridos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Comunicación entre GUIs integradas, hay que arbitrar un sistema de paso
+ de mensajes entre GUIs.
+ En base a los requisitos anteriores, podemos establecer los requisitos
+ funcionales y los no funcionales para el desarrollo del proyecto.
+\end_layout
+
+\begin_layout Subsection*
+4.2.1.- Requisitos Funcionales 
+\end_layout
+
+\begin_layout Standard
+Podemos determinar que un requisito funcional es una declaración de cómo
+ debe comportarse un sistema.
+ Los requisitos funcionales deben determinar de manera precias que hace
+ un sistema y cómo lo hace; ie, su función y su comportamiento.
+\end_layout
+
+\begin_layout Standard
+Mediante el establecimiento de los requisitos funcionales del proyecto establece
+remos los servicios y funciones que debe hacer el sistema y como los debe
+ hacer.
+ En este sentido, se han detectado los siguientes requisitos funcionales
+ (RF):
+\end_layout
+
+\begin_layout Itemize
+RF1: Poder crear, modificar y/o eliminar ventanas simples 
+\end_layout
+
+\begin_layout Itemize
+RF2: Poder crear, modificar y/o eliminar ventanas con pestañas 
+\end_layout
+
+\begin_layout Itemize
+RF3: Poder crear, modificar y/o eliminar ventanas tipo árbol 
+\end_layout
+
+\begin_layout Itemize
+RF4: Establecer mecanismos de paso de mensajes entre diferentes ventanas,
+ para poder comunicarse.
+\end_layout
+
+\begin_layout Subsection*
+4.2.2.- Requisitos No Funcionales 
+\end_layout
+
+\begin_layout Standard
+Podemos establecer que un requisito no funcional detalla las limitaciones
+ y restricciones del sistema a diseñar.
+ Estos requisitos no tienen ningún impacto en la funcionalidad del proyecto.
+\end_layout
+
+\begin_layout Standard
+Mediante el establecimiento de los requisitos no funcionales del proyecto
+ estableceremos los las cualidades, restricciones y características del
+ software.
+ En este sentido, se han detectado los siguientes requisitos no funcionales
+ (RNF): 
+\end_layout
+
+\begin_layout Itemize
+RNF1: Redimensionamiento de las ventanas adaptado al entorno.
+ 
+\end_layout
+
+\begin_layout Itemize
+RNF2: Evitar el uso de botones en las ventanas.
+ 
+\end_layout
+
+\begin_layout Itemize
+RNF3: Mantener la estética de las ventanas diseñadas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+4.3.- CASOS DE USO
+\end_layout
+
+\begin_layout Standard
+De manera breve podemos establecer que mediante la técnicas de los CASOS
+ DE USO de UML podemos describir bajo la forma de acciones y reacciones
+ el comportamiento (descrito de manera gráfica y/o textual) de un sistema
+ desde el punto de vista de un usuario o actor.
+ Permiten visualizar los diferentes tipos de roles en un sistema y cómo
+ esos roles interactúan con el sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+Para definir los casos de uso nos apoyaremos en los diagramas de casos de
+ uso que nos permiten ver de manera gráfica, que nos permitirá ver de una
+ manera mas fácil las funcionalidades del sistema
+\end_layout
+
+\begin_layout Standard
+A continuación vamos a definir los casos de uso desde el punto de vista
+ de los distintos actores: el diseñador de GUIs, el programador de aplicaciones
+ y el usuario 
+\end_layout
+
+\begin_layout Subsection*
+4.3.1.- Casos de Uso desde el punto de vista del diseñador de GUIs: 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.1.1.-Diagrama de caso de uso del diseñador de GUIs
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename imagenes/UseCase Diseñador de GUIs.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.1.2 Caso de uso CREAR VENTANAS “SIMPLES”
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.1.3 Caso de uso CREAR VENTANAS “CON PESTAÑAS” 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.1.4 Caso de uso CREAR VENTANAS “VISTA ARBOL” 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.1.5 Caso de uso CREAR VENTANAS “ARRASTAR COMPONENTES”
+\end_layout
+
+\begin_layout Subsection*
+4.3.2.- Casos de Uso desde el punto de vista del programador de aplicaciones.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.2.1.-Diagrama de caso de uso del programador de aplicaciones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename imagenes/UseCase Programador de aplicaciones.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.2.2 Caso de uso PEDIR VENTANAS VACIAS 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.2.3 Caso de uso PEDIR VENTANAS DISEÑADAS 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.3.4 Caso de uso COMUNICAR VENTANAS ENTRE SI
+\end_layout
+
+\begin_layout Subsection*
+4.3.3.- Casos de Uso desde el punto de vista del usuario.
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.3.1.-Diagrama de caso de uso del usuario
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename imagenes/UseCase Usuario.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.3.2 Caso de uso PULSAR “ACEPTAR” 
+\end_layout
+
+\begin_layout Subsubsection*
+4.3.3.3 Caso de uso PULSAR “RECHAZAR”
+\end_layout
+
+\end_body
+\end_document
