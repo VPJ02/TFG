@@ -599,15 +599,396 @@ A continuación vamos a definir los casos de uso desde el punto de vista
 \end_layout
 
 \begin_layout Subsubsection*
-4.3.2.2 Caso de uso PEDIR VENTANAS VACIAS 
+4.3.2.2 Caso de uso PEDIR VENTANAS VACÍAS
+\end_layout
+
+\begin_layout Standard
+Actor: Programador de aplicaciones.
+\end_layout
+
+\begin_layout Standard
+Precondiciones: Se ha creado un proyecto y se ha importado la librería diseñada
+ como complemento a la librería SWING.
+\end_layout
+
+\begin_layout Standard
+Escenario de éxito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="8cm">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acciones del programador de aplicaciones
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respuesta del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.- El caso de uso comienza cuando el usuario solicita o pide “ventanas vacías”.
+ Para ello, hace un llamada al método adecuado 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
 4.3.2.3 Caso de uso PEDIR VENTANAS DISEÑADAS 
 \end_layout
 
+\begin_layout Standard
+Actor: Programador de aplicaciones.
+\end_layout
+
+\begin_layout Standard
+Precondiciones: Se ha creado un proyecto y se ha importado la librería diseñada
+ como complemento a la librería SWING.
+\end_layout
+
+\begin_layout Standard
+Escenario de éxito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="8cm">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acciones del programador de aplicaciones
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respuesta del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.- El caso de uso comienza cuando el usuario solicita o pide “ventanas diseñadas
+”.
+ Para ello, hace un llamada al método adecuado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 4.3.3.4 Caso de uso COMUNICAR VENTANAS ENTRE SI
+\end_layout
+
+\begin_layout Standard
+Actor: Programador de aplicaciones.
+\end_layout
+
+\begin_layout Standard
+Precondiciones: Se ha creado un proyecto y se ha importado la librería diseñada
+ como complemento a la librería SWING.
+\end_layout
+
+\begin_layout Standard
+Escenario de éxito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="8cm">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acciones del programador de aplicaciones
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respuesta del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.- El caso de uso comienza cuando
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -632,8 +1013,324 @@ A continuación vamos a definir los casos de uso desde el punto de vista
 4.3.3.2 Caso de uso PULSAR “ACEPTAR” 
 \end_layout
 
+\begin_layout Standard
+Actor: Usuario
+\end_layout
+
+\begin_layout Standard
+Precondiciones: Se ha ejecutado una aplicación en la que se ha utilizado,
+ entre otras, la librería diseñada como complemento a la librería SWING
+\end_layout
+
+\begin_layout Standard
+Escenario de éxito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="8cm">
+<column alignment="left" valignment="top" width="10cm">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acciones del Usuario
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respuesta del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+ El caso de uso comienza cuando el usuario pulsa el botón ACEPTAR de unas
+ de las “ventanas” diseñadas con la librería
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.- El sistema atiende la petición del usuario y valida los datos introducidos
+ en la ventana de diáologo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.- El sistema procede según corresponda: guardará los datos en el almacén
+ correspondiente, los utilizará de manera intermedia para un fin, ....
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.- El sistema da por terminadas las tareas requeridas y da por finalizado
+ el caso de uso.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cursos alternativos: 
+\end_layout
+
+\begin_layout Itemize
+Linea 2.
+ El sistema no da como validos los datos introducidos.
+ En este caso el flujo será: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linea 2.1..- (Sistema) : El sistema muestra un mensaje indicando la invalidez
+ los datos 
+\end_layout
+
+\begin_layout Itemize
+Linea 2.2.- (Actor:Usuario): El usuario ve el mensaje indicado y cierra la
+ pantalla del mismo 
+\end_layout
+
+\begin_layout Itemize
+Linea 2.3..- (Sistema): El Sistema muestra la ventana de dialogo como estaba
+ antes de pulsar el botón aceptar 
+\end_layout
+
+\begin_layout Itemize
+Linea 2.4.- (Actor:Usuario): El usuario hace las modificaciones pertinentes
+ y pulsa aceptar.
+ El Curso pasa a la linea 2 del caso de éxito
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Linea 3.
+ El sistema por motivos ajenos o no, no puede realizar las tareas requeridas.
+ En este caso el flujo será: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linea 3.1..- (Sistema) : El sistema muestra un mensaje indicando el error producido
+ 
+\end_layout
+
+\begin_layout Itemize
+Linea 3.2.- (Actor:Usuario): El usuario ve el mensaje indicado y cierra la
+ pantalla del mismo 
+\end_layout
+
+\begin_layout Itemize
+Linea 3.3.- (Sistema): El sistema cierra la ventana de diálogo y da por finalizado
+ el caso de uso.
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection*
 4.3.3.3 Caso de uso PULSAR “RECHAZAR”
+\end_layout
+
+\begin_layout Standard
+Actor: Usuario
+\end_layout
+
+\begin_layout Standard
+Precondiciones: Se ha ejecutado una aplicación en la que se ha utilizado,
+ entre otras, la librería diseñada como complemento a la librería SWING
+\end_layout
+
+\begin_layout Standard
+Escenario de éxito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="8cm">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acciones del Usuario
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Respuesta del sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.- El caso de uso comienza cuando el usuario pulsa el botón RECHAZAR de
+ unas de las “ventanas” diseñadas con la librería
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.-El sistema atiende la petición del usuario
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \end_body
