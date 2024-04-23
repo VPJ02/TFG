@@ -4,7 +4,9 @@ package libreriaTFG;
 
 import javax.swing.JPanel;
 import java.awt.Dimension;
+import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JFrame;
 
 /**
  * Libreria del proyecto.
@@ -52,8 +54,10 @@ public class Ventana extends JPanel   {
      * INTERFAZ PÚBLICO   
      */
     public boolean setUpVentana() {
-                  
-             
+        //determino la ventana padre. Es la creada con la Factoria
+        //setVentanaPadre(this);
+        
+        listaVentanasHijas = new ArrayList<>();           
         
         
         return true;  
@@ -74,9 +78,9 @@ public class Ventana extends JPanel   {
         
        try{  
         
-        listaVentanasHijas.add(ventanaHija);
+        listaVentanasHijas.add(ventanaHija);        
         
-        ventanaHija.setVentanaPadre(this);
+          
 
         // Si da error lo capturo 
         }catch(Exception e) {
